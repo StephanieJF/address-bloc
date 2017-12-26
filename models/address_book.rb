@@ -19,4 +19,5 @@ def add_entry(name, phone_number, email)
     
     entries.insert(index, Entry.new(name, phone_number, email))
     end
+
 end

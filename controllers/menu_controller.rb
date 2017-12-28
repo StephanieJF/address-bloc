@@ -61,7 +61,7 @@ class MenuController
         puts "New AddressBloc Entry"
         print "Name: "
         name = gets.chomp
-        print "Phone number: "
+        print "Phone Number: "
         phone = gets.chomp
         print "Email: "
         email = gets.chomp

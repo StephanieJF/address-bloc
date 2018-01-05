@@ -30,6 +30,10 @@ class AddressBook
 		end
 	end
 	
+	def demolish_all
+		entries.clear
+	end
+	
 	def binary_search(name)
 		lower = 0
 		upper = entries.length - 1
